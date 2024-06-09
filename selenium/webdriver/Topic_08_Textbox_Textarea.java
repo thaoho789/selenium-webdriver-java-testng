@@ -159,7 +159,6 @@ public class Topic_08_Textbox_Textarea {
     public String getEmailAddress() {
         Random rand = new Random();
         return "automation" + rand.nextInt(99999) + "@gmail.net";
-
     }
 
     @AfterClass
