@@ -1,19 +1,18 @@
 package webdriver;
 
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 import java.time.Duration;
-import java.util.concurrent.TimeUnit;
 
-public class Topic_00_Template {
+public class Topic_30_Wait_09_Fluent {
 
     WebDriver driver;
+    WebDriverWait explicitWait;
 
     @BeforeClass
     public void beforeClass() {

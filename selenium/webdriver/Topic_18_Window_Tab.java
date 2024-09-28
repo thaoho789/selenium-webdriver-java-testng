@@ -51,7 +51,7 @@ public class Topic_18_Window_Tab {
     }
 
     //@Test
-    public void TC_02_KynaEnglish() {
+    public void TC_02_Kyna_English() {
         driver.get("https://skills.kynaenglish.vn/");
         sleepInSeconds(3);
 
