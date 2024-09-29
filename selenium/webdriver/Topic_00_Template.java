@@ -37,8 +37,6 @@ public class Topic_00_Template {
         String pageTitle = driver.getTitle();
         System.out.println(pageTitle);
 
-        driver.findElement().get
-
     }
 
     @Test

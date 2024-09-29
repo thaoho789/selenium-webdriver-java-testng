@@ -36,8 +36,6 @@ public class Topic_30_Wait_09_Fluent {
         String pageTitle = driver.getTitle();
         System.out.println(pageTitle);
 
-        driver.findElement().get
-
     }
 
     @Test
