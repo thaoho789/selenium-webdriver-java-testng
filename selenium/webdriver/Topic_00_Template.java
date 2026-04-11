@@ -11,6 +11,12 @@ import org.testng.annotations.Test;
 import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
+<<<<<<< HEAD
+=======
+//branchA
+//branchB
+
+>>>>>>> 05f6cc8 (test branch B)
 public class Topic_00_Template {
 
     WebDriver driver;
