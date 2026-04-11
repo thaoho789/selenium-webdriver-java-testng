@@ -12,7 +12,6 @@ import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 //branchA
-//branchB
 
 public class Topic_00_Template {
 
